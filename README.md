@@ -8,4 +8,4 @@ Batch : C2
 
 Project Discription : this project is about a sports club.
 
-Development-link : https://github.com/kanchan-kanwar/SOPST-website.git
+Development-link : https://kanchan-kanwar.github.io/SOPST-website/
