@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOPST | Events</title>
+    <link rel="stylesheet" href="events.css">
+    <style>
+        /* Extra styling specifically for EVENTS page */
+       
+        .events-header {
+            text-align: center;
+            background: black;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .events-header h1 {
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        .events-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 40px;
+        }
+
+        .event-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            border: 2px solid black;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .event-card:hover {
+            background: black;
+            color: white;
+            transform: translateY(-8px);
+        }
+
+        .event-card h3 {
+            margin: 0 0 10px 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .event-card p {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        footer {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SOPST SPORTS</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="events-header">
+        <h1>🔥 Upcoming Sports Events 2025</h1>
+        <p>Ready to compete? Check out our major events happening across the year.</p>
+    </section>
+
+    <section class="events-container">
+
+        <div class="event-card">
+            <h3>🏆 National Football League</h3>
+            <p><strong>Date:</strong> March 12, 2025</p>
+            <p>Join the biggest football showdown with teams from across the country.</p>
+        </div>
+
+        <div class="event-card">
+            <h3>🏀 Basketball Championship</h3>
+            <p><strong>Date:</strong> April 9, 2025</p>
+            <p>Get ready for intense dunks, speed, and competition.</p>
+        </div>
+
+        <div class="event-card">
+            <h3>🏏 Cricket Premier Cup</h3>
+            <p><strong>Date:</strong> July 21, 2025</p>
+            <p>The ultimate cricket battle awaits teams aiming for glory.</p>
+        </div>
+
+        <div class="event-card">
+            <h3>🏊 Swimming Gala</h3>
+            <p><strong>Date:</strong> August 18, 2025</p>
+            <p>Witness swimmers compete across multiple challenges and styles.</p>
+        </div>
+
+        <div class="event-card">
+            <h3>🤸 Athletics Championship</h3>
+            <p><strong>Date:</strong> October 3, 2025</p>
+            <p>Track, field, hurdles, and more — all in one mega event.</p>
+        </div>
+
+        <div class="event-card">
+            <h3>🥋 Martial Arts Tournament</h3>
+            <p><strong>Date:</strong> December 15, 2025</p>
+            <p>Experience the thrill of professional martial arts competition.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2025 SOPST Sports Club</p>
+    </footer>
+
+</body>
+</html>

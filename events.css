@@ -1,0 +1,108 @@
+/* ---------------- EVENTS PAGE HEADER STYLING ---------------- */
+
+.events-header {
+    background: #000;               /* Black background */
+    color: #fff;                    /* White text */
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.08);
+}
+
+.events-header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.events-navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.3s ease;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.events-navbar a:hover {
+    background: #ffffff;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.events-navbar a.active {
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .events-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .events-navbar a {
+        display: inline-block;
+        margin: 8px;
+    }
+}
+/* ===== Header Styling ===== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Logo */
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Navigation Styling */
+header nav {
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+/* Hover effect for links */
+header nav a:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.1);
+}
+
+/* Responsive Header */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    header nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+}
